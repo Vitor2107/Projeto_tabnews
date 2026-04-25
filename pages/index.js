@@ -11,6 +11,25 @@ function home() {
         para agendar uma consulta ou tirar dúvidas. Juntos, podemos alcançar
         seus objetivos de saúde e bem-estar!
       </h2>
+      <a
+        href="https://wa.me/5527997925297?text=Olá%20Andressa,%20gostaria%20de%20agendar%20uma%20consulta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          style={{
+            padding: "10px 20px",
+            fontSize: "16px",
+            backgroundColor: "#25D366",
+            color: "white",
+            border: "none",
+            borderRadius: "5px",
+            cursor: "pointer",
+          }}
+        >
+          Chamar no WhatsApp
+        </button>
+      </a>
     </div>
   );
 }
